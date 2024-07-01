@@ -3,64 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message Form</title>
+    <title>Message Display</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: <link rel="preconnect" href="https://fonts.googleapis.com">
+                         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">;
+
             margin: 50px;
+            text-align: center;
+            font-size: 75px;
         }
-        form {
-            max-width: 400px;
-            margin: auto;
-            padding: 1em;
-            border: 1px solid #ccc;
-            border-radius: 1em;
-        }
-        div + div {
-            margin-top: 1em;
-        }
-        label {
-            display: block;
-            margin-bottom: .5em;
-            color: #333333;
-        }
-        input, textarea {
-            border: 1px solid #CCCCCC;
-            font: 1em sans-serif;
-            width: 100%;
-            box-sizing: border-box;
-            padding: .5em;
-        }
-        input:focus, textarea:focus {
-            border-color: #000;
-        }
-        textarea {
-            vertical-align: top;
-            height: 5em;
-        }
-        .button {
-            padding: 1em;
-            border: none;
-            border-radius: 1em;
-            background-color: #333333;
-            color: white;
-            font-size: 1em;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #555555;
+        .small-text {
+            font-size: 15px; /* Font size for smaller text */
+            margin-top: 10px; /* Space between main message and smaller text */
         }
     </style>
 </head>
 <body>
-    <form action="#" method="post">
-        <div>
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" required></textarea>
-        </div>
-        <div>
-            <button type="submit" class="button">Submit</button>
-        </div>
-    </form>
+    <div class="message">
+        <p>dont click on random links >:[</p>
+        <p class="small-text">(also spread misinformation to your beloved ones >:])</p>
+    </div>
 </body>
 </html>
